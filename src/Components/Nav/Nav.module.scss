@@ -1,3 +1,43 @@
 .Nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+  img{
+    width: 100px;
+  }
+  span {
+    font-weight: 700;
+  }
 }
+
+
+@media (max-width: 576px) {
+  .Nav {
+    span {
+      display: none;
+    }
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .Nav {
+    span {
+      font-size: 24px;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .Nav {
+    span {
+      font-size: 32px;
+    }
+  }
+}
+
+
+
+

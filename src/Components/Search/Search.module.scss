@@ -1,0 +1,37 @@
+.Search {
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  padding: 6px 16px;
+
+  .inpt {
+    font-size: 24px;
+    outline: none;
+    border: none;
+  }
+
+  .loop {
+    width: 20px;
+    height: 20px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .Search {
+    .inpt {
+      width: 130px;
+    }
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .Search {
+    .inpt {
+      width: auto;
+    }
+  }
+}
